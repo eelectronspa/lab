@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  mosquitto:
+    restart: always
+    image: eclipse-mosquitto:2.0.15-openssl
+    hostname: lab-mosquitto
+    container_name: lab-mosquitto
+    
+    volumes:
+      - ./mosquitto/config:/mosquitto/config:ro
+      - ./mosquitto/data:/mosquitto/data:rw
+      - ./mosquitto/log:/mosquitto/log:rw
+
+    ports:
+      # unencrypted, unauthenticated
+      - target: 1883
+        published: 1883
+        protocol: tcp
+        host_ip: 0.0.0.0
+
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "5"

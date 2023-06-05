@@ -1,0 +1,2 @@
+mqtt-broker/containers/mosquitto/data/mosquitto.db
+mqtt-broker/containers/mosquitto/log/mosquitto.log

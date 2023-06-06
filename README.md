@@ -7,3 +7,4 @@ They are not created and/or designed for production environments.
 
 So let's get started!
 
+## How the lab is organized

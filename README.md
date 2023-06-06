@@ -12,7 +12,7 @@ You will find a README.md file inside each project folder with all information y
 
 
 ## Docker & Compose
-Almost all examples use docker, to install it on your host follow the official documentation (ref below)
+Almost all examples use docker to keep the host clean, to install it follow the official documentation.
 
 Linux
 [ https://docs.docker.com/desktop/install/windows-install/ ](https://docs.docker.com/engine/install/ubuntu/)

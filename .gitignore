@@ -1,2 +1,9 @@
 mqtt-broker/containers/mosquitto/data/mosquitto.db
 mqtt-broker/containers/mosquitto/log/mosquitto.log
+thingsboard.io/containers/thingsboard/logs/gc.log
+thingsboard.io/containers/thingsboard/logs/gc.log.0
+thingsboard.io/containers/thingsboard/logs/install.log
+thingsboard.io/containers/thingsboard/logs/thingsboard.log
+thingsboard.io/containers/thingsboard/data/db
+thingsboard.io/containers/thingsboard/data/.firstlaunch
+thingsboard.io/containers/thingsboard/data/.upgradeversion

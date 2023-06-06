@@ -4,7 +4,7 @@ Simple example on how to create a local mqtt broker
 ```
 git clone https://github.com/eelectronspa/lab.git
 cd lab/mqtt-broker/containers/
-docker-compose up -d
+docker-compose up
 ```
 
 ## Connect to the broker
